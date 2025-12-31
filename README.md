@@ -23,7 +23,7 @@ User Query → Embedding → Vector Search → Context Building → LLM → Resp
 **Tech Stack:**
 - **Backend**: FastAPI
 - **Vector DB**: ChromaDB (local, embedded)
-- **LLM**: OpenAI GPT-4
+- **LLM**: OpenAI GPT-4, etc.
 - **Embeddings**: OpenAI text-embedding-3-small
 - **Document Processing**: LangChain, PyPDF, python-docx
 
@@ -162,7 +162,7 @@ Visit `http://localhost:8000/docs` for interactive Swagger UI documentation.
 
 ## 🧪 Testing with Postman
 
-1. **Import Collection**: Use the provided `/openapi.json`
+1. **Import Collection**: Use the provided `/openapi.json` in the docs page.
 2. **Set Base URL**: `http://localhost:8000`
 3. **Test Sequence**:
    - POST `/index` - Index documents
